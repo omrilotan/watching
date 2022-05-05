@@ -1,0 +1,31 @@
+{
+  "name": "watching",
+  "version": "1.0.0",
+  "description": "👀 Run NPM scripts upon changes to filesystem",
+  "keywords": [
+    "watching",
+    "watch",
+    "dev",
+    "devtools",
+    "filesystem",
+    "👀"
+  ],
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/watching.git"
+  },
+  "homepage": "https://omrilotan.com/watching/",
+  "author": "omrilotan",
+  "type": "module",
+  "bin": {
+    "watching": "bin.js",
+    "watch": "bin.js"
+  },
+  "scripts": {
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
